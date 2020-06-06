@@ -1,0 +1,256 @@
+[{
+  "unit": "480",
+  "id": "Адыгея-Кубань",
+  "UTC": "+3",
+  "city": "Краснодар",
+  "shedule": {
+    "StoreHours": "ПН-ВС 10:00 - 24:00",
+    "Children'sPlayHours": "ПН-ВС 10:00 - 21:00",
+    "RestaurantOpeningHours": "ПН-ВС 09:00 - 23:00"
+    },  
+  "Address": "Где-то в текущем городе",
+  "AddInfo": {
+    "OpenningDate": "Когда-то открылся",
+    "Coordinates": "55.656348, 55.656348"
+    }
+  }, {
+  "unit": "366",
+  "id": "Тёплый стан",
+  "UTC": "+3",
+  "city": "Москва",
+  "shedule": {
+    "StoreHours": "ПН-ВС 10:00 - 24:00",
+    "Children'sPlayHours": "ПН-ВС 10:00 - 21:00",
+    "RestaurantOpeningHours": "ПН-ВС 09:00 - 23:00"
+    },  
+  "Address": "Где-то в текущем городе",
+  "AddInfo": {
+    "OpenningDate": "Когда-то открылся",
+    "Coordinates": "55.656348, 55.656348"
+    }
+  }, {
+  "unit": "344",
+  "id": "Белая Дача",
+  "UTC": "+3",
+  "city": "Котельники",
+  "shedule": {
+    "StoreHours": "ПН-ВС 10:00 - 24:00",
+    "Children'sPlayHours": "ПН-ВС 10:00 - 21:00",
+    "RestaurantOpeningHours": "ПН-ВС 09:00 - 23:00"
+  },  
+  "Address": "140055, Московская область, город Котельники, 1-й Покровский проезд, д.4",
+  "AddInfo": {
+    "OpenningDate": "15 сентября 2005",
+    "Coordinates": "55.656348, 55.656348"
+  }
+  }, {
+  "unit": "426",
+  "id": "Дыбенко",
+  "UTC": "+3",
+  "city": "Санкт-Петербург",
+  "shedule": {
+    "StoreHours": "ПН-ВС 10:00 - 24:00",
+    "Children'sPlayHours": "ПН-ВС 10:00 - 21:00",
+    "RestaurantOpeningHours": "ПН-ВС 09:00 - 23:00"
+    },  
+  "Address": "Где-то в текущем городе",
+  "AddInfo": {
+    "OpenningDate": "Когда-то открылся",
+    "Coordinates": "55.656348, 55.656348"
+    }
+  }, {
+  "unit": "342",
+  "id": "Екатеринбург",
+  "UTC": "+5",
+  "city": "Екатеринбург",
+  "shedule": {
+    "StoreHours": "ПН-ВС 10:00 - 24:00",
+    "Children'sPlayHours": "ПН-ВС 10:00 - 21:00",
+    "RestaurantOpeningHours": "ПН-ВС 09:00 - 23:00"
+    },  
+  "Address": "Где-то в текущем городе",
+  "AddInfo": {
+    "OpenningDate": "Когда-то открылся",
+    "Coordinates": "55.656348, 55.656348"
+    }
+  }, {
+  "unit": "341",
+  "id": "Казань",
+  "UTC": "+3",
+  "city": "Казань",
+  "shedule": {
+    "StoreHours": "ПН-ВС 10:00 - 24:00",
+    "Children'sPlayHours": "ПН-ВС 10:00 - 21:00",
+    "RestaurantOpeningHours": "ПН-ВС 09:00 - 23:00"
+    },  
+  "Address": "Где-то в текущем городе",
+  "AddInfo": {
+    "OpenningDate": "Когда-то открылся",
+    "Coordinates": "55.656348, 55.656348"
+    }
+  }, {
+  "unit": "437",
+  "id": "Нижний Новгород",
+  "UTC": "+3",
+  "city": "Нижний Новгород",
+  "shedule": {
+    "StoreHours": "ПН-ВС 10:00 - 24:00",
+    "Children'sPlayHours": "ПН-ВС 10:00 - 21:00",
+    "RestaurantOpeningHours": "ПН-ВС 09:00 - 23:00"
+    },  
+  "Address": "Где-то в текущем городе",
+  "AddInfo": {
+    "OpenningDate": "Когда-то открылся",
+    "Coordinates": "55.656348, 55.656348"
+    }
+  }, {
+  "unit": "338",
+  "id": "Новосибирск",
+  "UTC": "+7",
+  "city": "Новосибирск",
+  "shedule": {
+    "StoreHours": "ПН-ВС 10:00 - 24:00",
+    "Children'sPlayHours": "ПН-ВС 10:00 - 21:00",
+    "RestaurantOpeningHours": "ПН-ВС 09:00 - 23:00"
+    },  
+  "Address": "Где-то в текущем городе",
+  "AddInfo": {
+    "OpenningDate": "Когда-то открылся",
+    "Coordinates": "55.656348, 55.656348"
+    }
+  }, {
+  "unit": "351",
+  "id": "Омск",
+  "UTC": "+6",
+  "city": "Омск",
+  "shedule": {
+    "StoreHours": "ПН-ВС 10:00 - 24:00",
+    "Children'sPlayHours": "ПН-ВС 10:00 - 21:00",
+    "RestaurantOpeningHours": "ПН-ВС 09:00 - 23:00"
+    },  
+  "Address": "Где-то в текущем городе",
+  "AddInfo": {
+    "OpenningDate": "Когда-то открылся",
+    "Coordinates": "55.656348, 55.656348"
+    }
+  }, {
+  "unit": "464",
+  "id": "Парнас",
+  "UTC": "+3",
+  "city": "Санкт-Петербург",
+  "shedule": {
+    "StoreHours": "ПН-ВС 10:00 - 24:00",
+    "Children'sPlayHours": "ПН-ВС 10:00 - 21:00",
+    "RestaurantOpeningHours": "ПН-ВС 09:00 - 23:00"
+    },  
+  "Address": "Где-то в текущем городе",
+  "AddInfo": {
+    "OpenningDate": "Когда-то открылся",
+    "Coordinates": "55.656348, 55.656348"
+    }
+  }, {
+  "unit": "443",
+  "id": "Ростов-На-Дону",
+  "UTC": "+3",
+  "city": "Ростов-На-Дону",
+  "shedule": {
+    "StoreHours": "ПН-ВС 10:00 - 24:00",
+    "Children'sPlayHours": "ПН-ВС 10:00 - 21:00",
+    "RestaurantOpeningHours": "ПН-ВС 09:00 - 23:00"
+    },  
+  "Address": "Где-то в текущем городе",
+  "AddInfo": {
+    "OpenningDate": "Когда-то открылся",
+    "Coordinates": "55.656348, 55.656348"
+    }
+  }, {
+  "unit": "442",
+  "id": "Самара",
+  "UTC": "+4",
+  "city": "Самара",
+  "shedule": {
+    "StoreHours": "ПН-ВС 10:00 - 24:00",
+    "Children'sPlayHours": "ПН-ВС 10:00 - 21:00",
+    "RestaurantOpeningHours": "ПН-ВС 09:00 - 23:00"
+    },  
+  "Address": "Где-то в текущем городе",
+  "AddInfo": {
+    "OpenningDate": "Когда-то открылся",
+    "Coordinates": "55.656348, 55.656348"
+    }
+  }, {
+  "unit": "346",
+  "id": "Уфа",
+  "UTC": "+5",
+  "city": "Уфа",
+  "shedule": {
+    "StoreHours": "ПН-ВС 10:00 - 24:00",
+    "Children'sPlayHours": "ПН-ВС 10:00 - 21:00",
+    "RestaurantOpeningHours": "ПН-ВС 09:00 - 23:00"
+    },  
+  "Address": "Где-то в текущем городе",
+  "AddInfo": {
+    "OpenningDate": "Когда-то открылся",
+    "Coordinates": "55.656348, 55.656348"
+    }
+  }, {
+  "unit": "335",
+  "id": "Химки",
+  "UTC": "+3",
+  "city": "Химки",
+  "shedule": {
+    "StoreHours": "ПН-ВС 10:00 - 24:00",
+    "Children'sPlayHours": "ПН-ВС 10:00 - 21:00",
+    "RestaurantOpeningHours": "ПН-ВС 09:00 - 23:00"
+    },  
+  "Address": "Где-то в текущем городе",
+  "AddInfo": {
+    "OpenningDate": "Когда-то открылся",
+    "Coordinates": "55.656348, 55.656348"
+    }
+  }, {
+  "unit": "609",
+  "id": "Ходынское Поле",
+  "UTC": "+3",
+  "city": "Москва",
+  "shedule": {
+    "StoreHours": "ПН-ВС 10:00 - 24:00",
+    "Children'sPlayHours": "ПН-ВС 10:00 - 21:00",
+    "RestaurantOpeningHours": "ПН-ВС 09:00 - 23:00"
+    },  
+  "Address": "Где-то в текущем городе",
+  "AddInfo": {
+    "OpenningDate": "Когда-то открылся",
+    "Coordinates": "55.656348, 55.656348"
+    }
+  }, {
+  "unit": "524",
+  "id": "Интернет-магазин",
+  "UTC": "+3",
+  "city": "Москва",
+  "shedule": {
+    "StoreHours": "ПН-ВС 10:00 - 24:00",
+    "Children'sPlayHours": "ПН-ВС 10:00 - 21:00",
+    "RestaurantOpeningHours": "ПН-ВС 09:00 - 23:00"
+    },  
+  "Address": "Где-то в текущем городе",
+  "AddInfo": {
+    "OpenningDate": "Когда-то открылся",
+    "Coordinates": "55.656348, 55.656348"
+    }
+  }, {
+  "unit": "604",
+  "id": "CDC",
+  "UTC": "+3",
+  "city": "Москва",
+  "shedule": {
+    "StoreHours": "ПН-ВС 10:00 - 24:00",
+    "Children'sPlayHours": "ПН-ВС 10:00 - 21:00",
+    "RestaurantOpeningHours": "ПН-ВС 09:00 - 23:00"
+    },  
+  "Address": "Где-то в текущем городе",
+  "AddInfo": {
+    "OpenningDate": "Когда-то открылся",
+    "Coordinates": "55.656348, 55.656348"
+    }
+  }]

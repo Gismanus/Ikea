@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel='stylesheet' href="styles/clock.css">
+    <link rel='stylesheet' href="styles/base.css">
+    <link rel='stylesheet' href="styles/header.css">
+    <title>Икеа</title>
+</head>
+<body>
+    <div class='wrapper'>
+      <div class='header container'>
+        <div class='info info__widjet'>         
+            <select id='store-name'>
+              <option value='480'>480 Адыгея-Кубань</option>
+              <option value='344'>344 Белая дача</option>
+              <option value='426'>426 Дыбенко</option>
+              <option value='342'>342 Екатеринбург</option>
+              <option value='341'>341 Казань</option>
+              <option value='437'>437 Нижний Новгород</option>
+              <option value='338'>338 Новосибирск</option>
+              <option value='351'>351 Омск</option>
+              <option value='464'>464 Парнас</option>
+              <option value='443'>443 Ростов-На-Дону</option> 
+              <option value='442'>442 Самара</option>
+              <option value='366'>366 Тёплый стан</option>
+              <option value='346'>346 Уфа</option>
+              <option value='335'>335 Химки</option>
+              <option value='609'>609 Ходынское поле</option>
+              <option value='524'>524 Интернет-магазин</option>
+              <option value='604'>604 CDC</option>
+            </select>
+          <div class='widjet'>
+            <div class='clock GMT_0'>
+              <!-- циферблат -->
+                <div class='clock_face'>
+                  <img class='clock_img' src='clock.jpg'>
+                </div>
+                <!-- стрелки -->
+                  <div class='arrow-wrap'>
+                    <div id='arrow_h' class="arrow">
+                      <img src="images/arrow_h.png" style="width:4.5%;padding-left:48%;padding-top:19%;">
+                    </div>
+                    <!-- <svg id='arrow_h' class="arrow" viewBox="0 0 100 100">
+                      <line x1="50" y1="50" x2="50" y2="15" stroke-width="3" stroke="green" />                      
+                    </svg> -->
+                    <div id='arrow_m' class="arrow">
+                      <img src="images/arrow_m.png" style="width:4%;padding-left:48%;padding-top:6%;">
+                    </div>
+                    <!-- <svg id='arrow_m' class="arrow" viewBox="0 0 100 100">
+                      <line x1="50" y1="50" x2="50" y2="10" stroke-width="2" stroke="black" />
+                    </svg> -->
+                    <div id='arrow_s' class="arrow">
+                      <img src="images/arrow_s.png" style="width:4.5%;padding-left:47.75%;padding-top:3.2%;">
+                    </div>
+                    <!-- <svg id='arrow_s' class="arrow" viewBox="0 0 100 100">
+                      <line x1="50" y1="50" x2="50" y2="5" stroke-width="1" stroke="red" />
+                    </svg> -->
+                  </div>
+            </div>          
+            <div class='place__date'>
+              <div id='city'>
+                Москва,
+                <br>
+                <div class='place transparent'>Россия</div>            
+              </div>
+              <div class='transparent' id = 'date'>
+                2 Июля, Вт
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='info info__shedule'>
+          <div class='shedule'>
+            <div class='shedule__heading indent'>
+              Часы работы магазина:
+            </div>
+            <li class='shedule__value indent'>
+              ПН-ВС 10:00-24:00
+            </li>          
+          </div>
+          <div class='shedule'>
+            <div class='shedule__heading indent'>
+              Часы работы детской игровой:
+            </div>
+            <li class='shedule__value indent'>
+              ПН-ВС 10:00-21:00
+            </li>          
+          </div>
+        </div>
+        <div class='info'>
+          Часы работы ресторана:
+          ПН-ВС 10:00-24:00
+          Адрес:
+          140055, Московская область, город Котельники, 1-й покровский проезд, дом 4
+        </div>
+        <div class='info'>
+          Дополнительная информация:
+          Дата открытия - 15 сентября 2005
+          Как добраться в МЕГУ
+          Карта метро
+          55.656348 55.656.438
+        </div>
+      </div>
+    </div>
+    
+    <!-- clock -->
+    <script type="text/javascript">
+        
+        let date = document.getElementById('date');
+        let arrow_s = document.getElementById('arrow_s');
+        let arrow_m = document.getElementById('arrow_m');
+        let arrow_h = document.getElementById('arrow_h');
+        var units = [{
+          unit: "480",
+          id: "Адыгея-Кубань",
+          UTC: "+3",
+          city: "Краснодар"
+          }, {
+          unit: "366",
+          id: "Тёплый стан",
+          UTC: "+3",
+          city: "Москва"
+          }, {
+          unit: "344",
+          id: "Белая Дача",
+          UTC: "+3",
+          city: "Котельники"
+          }, {
+          unit: "426",
+          id: "Дыбенко",
+          UTC: "+3",
+          city: "Санкт-Петербург"
+          }, {
+          unit: "342",
+          id: "Екатеринбург",
+          UTC: "+5",
+          city: "Екатеринбург"
+          }, {
+          unit: "341",
+          id: "Казань",
+          UTC: "+3",
+          city: "Казань"
+          }, {
+          unit: "437",
+          id: "Нижний Новгород",
+          UTC: "+3",
+          city: "Нижний Новгород"
+          }, {
+          unit: "338",
+          id: "Новосибирск",
+          UTC: "+7",
+          city: "Новосибирск"
+          }, {
+          unit: "351",
+          id: "Омск",
+          UTC: "+6",
+          city: "Омск"
+          }, {
+          unit: "464",
+          id: "Парнас",
+          UTC: "+3",
+          city: "Санкт-Петербург"
+          }, {
+          unit: "443",
+          id: "Ростов-На-Дону",
+          UTC: "+3",
+          city: "Ростов-На-Дону"
+          }, {
+          unit: "442",
+          id: "Самара",
+          UTC: "+4",
+          city: "Самара"
+          }, {
+          unit: "346",
+          id: "Уфа",
+          UTC: "+5",
+          city: "Уфа"
+          }, {
+          unit: "335",
+          id: "Химки",
+          UTC: "+3",
+          city: "Химки"
+          }, {
+          unit: "609",
+          id: "Ходынское Поле",
+          UTC: "+3",
+          city: "Москва"
+          }, {
+          unit: "524",
+          id: "Интернет-магазин",
+          UTC: "+3",
+          city: "Москва"
+          }, {
+          unit: "604",
+          id: "CDC",
+          UTC: "+3",
+          city: "Москва"
+          }];
+
+        function draw() {
+        var x;
+        let unit = document.getElementById('store-name').value;
+        let place = document.getElementById('city');
+        
+        for (let i = 0; i < units.length; i++) {
+          if (unit == units[i].unit){
+            place.innerHTML = units[i].city;
+            x = Number(units[i].UTC);
+          } 
+        };
+
+        let time = new Date();
+        ss = time.getSeconds();
+        mm = time.getMinutes();        
+        hh = ((time.getUTCHours()) + x) * 2;
+        mDay = time.getDate();
+        wDay = time.getDay();
+        month = time.getMonth();
+
+        arrow_s.style.transform = 'rotate(' + ss * 6 + 'deg)';
+        arrow_m.style.transform = 'rotate(' + mm * 6 + 'deg)';
+        if (mm >= 30) {
+          arrow_h.style.transform = 'rotate(' + ((hh * 15) + 15) + 'deg)';
+        } else {
+          arrow_h.style.transform = 'rotate(' + (hh * 15) + 'deg)';
+        }
+      };
+      
+      draw();
+      setInterval(draw, 1000);
+      
+      var months = ['Января', 'Февраля', 'Марта', 'Апреля', 'Мая', 'Июня',
+        'Июля', 'Августа', 'Сентября', 'Октября', 'Ноября', 'Декабря'];
+      
+      for (let i = 0; i < months.length; i++) {
+          if (i == month) {
+            date.innerHTML = mDay + ' ' + months[i] + ', ';
+          }
+        }
+      let wDays = ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'];
+      for (let i = 0; i < wDays.length; i++) {
+          if (i == wDay) {
+            date.innerHTML += wDays[i];
+          }
+        };
+    </script>
+    <div id="root"></div>
+    <script src="build/index.js"></script>
+</body>
+</html>

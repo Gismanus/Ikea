@@ -1,0 +1,53 @@
+.header {
+    background: #f9eff8;
+    height: 185px;
+    display: flex;
+}
+
+.info {
+    padding: 30px 10px 35px;
+    width: 300px;
+    background: #e5e5e5;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    }
+.info__widjet {
+    background: #fff;
+}
+
+#store-name {
+    background: #aa0;
+    margin: 0 22px 11px;
+    width: 170px; 
+    font-size: 12px;
+    font-weight: 800;
+    border: none;
+    border-radius: 2%;
+}
+.widjet {
+    display: flex;
+}
+
+.place__date {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 20px;
+}
+
+.info__shedule {
+    display: flex;
+    justify-content: space-evenly;
+}
+.shedule {
+    display: flex;
+    flex-direction: column;
+    padding: 2px 2px inherit;
+}
+
+.shedule__heading {
+    font-weight: bold;   
+}
