@@ -1,12 +1,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    background: #f9eff8;
 }
 
 .wrapper {    
     width: 100%;
     min-height: 50px;
-    background: #a00;
+    background: #aaa;
 }
 
 .container {
