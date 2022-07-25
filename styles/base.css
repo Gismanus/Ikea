@@ -12,7 +12,7 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 1200px;
+    max-width: 1200px;
 }
 
 .indent {
@@ -21,4 +21,10 @@ body {
 
 .transparent {
     opacity: 0.5;
+}
+
+@media (max-width: 500px) {
+    .info {
+        width: auto;
+    }
 }

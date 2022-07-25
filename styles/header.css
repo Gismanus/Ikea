@@ -1,7 +1,7 @@
 .header {
     background: #f9eff8;
     height: 185px;
-    display: flex;
+    display: flex wrap;
 }
 
 .info {
@@ -50,4 +50,12 @@
 
 .shedule__heading {
     font-weight: bold;   
+}
+
+@media (max-width: 500px) {
+    .info {
+        margin: 0 auto;
+        width: 100%;
+        justify-content: center;
+    }
 }
